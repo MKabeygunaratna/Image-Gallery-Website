@@ -1,0 +1,48 @@
+*{
+	font-family: 'Montserrat';
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.a {font-size:28px ;
+	margin-top: 10px;
+}
+
+header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	background-color: #3a4f41;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+	align-items : center;
+	justify-content: space-between;
+	display: flex;
+	padding: 0px 50px;
+	z-index: 100;
+}
+
+header #Logo_image{
+	margin: 15px 0px;
+	width: 125px;
+	height: auto;
+}
+
+.navigation_bar a {
+	position: relative;
+	font-size: 25px;
+	color: white;
+	font-weight: 700;
+	margin-left: 15px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	padding: 6px 13px;
+	border-radius: 3px;
+}
+
+.navigation_bar a:hover {
+	background: greenyellow;
+	color: black;
+	transition: .3s ease;
+}
